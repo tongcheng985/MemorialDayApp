@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <!-- 背景渐变层 -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BGG-Hj-Rty">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            
+                            <!-- 顶部装饰圆形 -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Top-Cr-One">
+                                <rect key="frame" x="193" y="-150" width="300" height="300"/>
+                                <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Top-W-Cst"/>
+                                    <constraint firstAttribute="height" constant="300" id="Top-H-Cst"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            
+                            <!-- 右侧装饰圆形 -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rgt-Cr-One">
+                                <rect key="frame" x="293" y="100" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0" alpha="0.029999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Rgt-W-Cst"/>
+                                    <constraint firstAttribute="height" constant="200" id="Rgt-H-Cst"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            
+                            <!-- 左下装饰圆形 -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bot-Cr-One">
+                                <rect key="frame" x="-100" y="652" width="250" height="250"/>
+                                <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0" alpha="0.040000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Bot-W-Cst"/>
+                                    <constraint firstAttribute="height" constant="250" id="Bot-H-Cst"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="125"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            
+                            <!-- 中心内容容器 -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cnt-Vw-Main">
+                                <rect key="frame" x="46.666666666666657" y="276" width="300" height="300"/>
+                                <subviews>
+                                    <!-- 主图标容器 -->
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Icn-Bg-View">
+                                        <rect key="frame" x="75" y="0.0" width="150" height="150"/>
+                                        <subviews>
+                                            <!-- 图标背景圆环 -->
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Icn-Rng-Out">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <real key="value" value="75"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            
+                                            <!-- 图标内圆 -->
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Icn-Rng-In">
+                                                <rect key="frame" x="15" y="15" width="120" height="120"/>
+                                                <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <real key="value" value="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            
+                                            <!-- 图标 -->
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Icn-Img-Main">
+                                                <rect key="frame" x="37.666666666666664" y="37.666666666666686" width="75" height="74.666666666666686"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="Icn-W-Cst"/>
+                                                    <constraint firstAttribute="height" constant="75" id="Icn-H-Cst"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="Icn-Bg-W"/>
+                                            <constraint firstAttribute="height" constant="150" id="Icn-Bg-H"/>
+                                            <constraint firstItem="Icn-Rng-Out" firstAttribute="leading" secondItem="Icn-Bg-View" secondAttribute="leading" id="Rng-Out-L"/>
+                                            <constraint firstItem="Icn-Rng-Out" firstAttribute="top" secondItem="Icn-Bg-View" secondAttribute="top" id="Rng-Out-T"/>
+                                            <constraint firstAttribute="trailing" secondItem="Icn-Rng-Out" secondAttribute="trailing" id="Rng-Out-R"/>
+                                            <constraint firstAttribute="bottom" secondItem="Icn-Rng-Out" secondAttribute="bottom" id="Rng-Out-B"/>
+                                            <constraint firstItem="Icn-Rng-In" firstAttribute="leading" secondItem="Icn-Bg-View" secondAttribute="leading" constant="15" id="Rng-In-L"/>
+                                            <constraint firstItem="Icn-Rng-In" firstAttribute="top" secondItem="Icn-Bg-View" secondAttribute="top" constant="15" id="Rng-In-T"/>
+                                            <constraint firstAttribute="trailing" secondItem="Icn-Rng-In" secondAttribute="trailing" constant="15" id="Rng-In-R"/>
+                                            <constraint firstAttribute="bottom" secondItem="Icn-Rng-In" secondAttribute="bottom" constant="15" id="Rng-In-B"/>
+                                            <constraint firstItem="Icn-Img-Main" firstAttribute="centerX" secondItem="Icn-Bg-View" secondAttribute="centerX" id="Icn-Img-X"/>
+                                            <constraint firstItem="Icn-Img-Main" firstAttribute="centerY" secondItem="Icn-Bg-View" secondAttribute="centerY" id="Icn-Img-Y"/>
+                                        </constraints>
+                                    </view>
+                                    
+                                    <!-- 标题容器 -->
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ttl-Cn-View">
+                                        <rect key="frame" x="0.0" y="180" width="300" height="120"/>
+                                        <subviews>
+                                            <!-- 主标题 -->
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纪念日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttl-Lb-Main">
+                                                <rect key="frame" x="0.0" y="20" width="300" height="36"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="0.40000000000000002" blue="0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            
+                                            <!-- 副标题 -->
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="记录生活中的重要时刻" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbt-Lb-Text">
+                                                <rect key="frame" x="0.0" y="66" width="300" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                <color key="textColor" red="1" green="0.40000000000000002" blue="0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Ttl-Lb-Main" firstAttribute="leading" secondItem="Ttl-Cn-View" secondAttribute="leading" id="Ttl-Lb-L"/>
+                                            <constraint firstItem="Ttl-Lb-Main" firstAttribute="top" secondItem="Ttl-Cn-View" secondAttribute="top" constant="20" id="Ttl-Lb-T"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ttl-Lb-Main" secondAttribute="trailing" id="Ttl-Lb-R"/>
+                                            <constraint firstItem="Sbt-Lb-Text" firstAttribute="leading" secondItem="Ttl-Cn-View" secondAttribute="leading" id="Sbt-Lb-L"/>
+                                            <constraint firstItem="Sbt-Lb-Text" firstAttribute="top" secondItem="Ttl-Lb-Main" secondAttribute="bottom" constant="10" id="Sbt-Lb-T"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sbt-Lb-Text" secondAttribute="trailing" id="Sbt-Lb-R"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Cnt-W-Cst"/>
+                                    <constraint firstAttribute="height" constant="300" id="Cnt-H-Cst"/>
+                                    <constraint firstItem="Icn-Bg-View" firstAttribute="top" secondItem="Cnt-Vw-Main" secondAttribute="top" id="Icn-Bg-Top"/>
+                                    <constraint firstItem="Icn-Bg-View" firstAttribute="centerX" secondItem="Cnt-Vw-Main" secondAttribute="centerX" id="Icn-Bg-Cntr"/>
+                                    <constraint firstItem="Ttl-Cn-View" firstAttribute="leading" secondItem="Cnt-Vw-Main" secondAttribute="leading" id="Ttl-Cn-L"/>
+                                    <constraint firstItem="Ttl-Cn-View" firstAttribute="top" secondItem="Icn-Bg-View" secondAttribute="bottom" constant="30" id="Ttl-Cn-T"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ttl-Cn-View" secondAttribute="trailing" id="Ttl-Cn-R"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ttl-Cn-View" secondAttribute="bottom" id="Ttl-Cn-B"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BGG-Hj-Rty" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="BGG-L-Cst"/>
+                            <constraint firstItem="BGG-Hj-Rty" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="BGG-T-Cst"/>
+                            <constraint firstAttribute="trailing" secondItem="BGG-Hj-Rty" secondAttribute="trailing" id="BGG-R-Cst"/>
+                            <constraint firstAttribute="bottom" secondItem="BGG-Hj-Rty" secondAttribute="bottom" id="BGG-B-Cst"/>
+                            
+                            <constraint firstItem="Top-Cr-One" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="trailing" constant="-50" id="Top-X-Cst"/>
+                            <constraint firstItem="Top-Cr-One" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Top-Y-Cst"/>
+                            
+                            <constraint firstItem="Rgt-Cr-One" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="trailing" constant="-50" id="Rgt-X-Cst"/>
+                            <constraint firstItem="Rgt-Cr-One" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="200" id="Rgt-Y-Cst"/>
+                            
+                            <constraint firstItem="Bot-Cr-One" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="25" id="Bot-X-Cst"/>
+                            <constraint firstItem="Bot-Cr-One" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="bottom" constant="-50" id="Bot-Y-Cst"/>
+                            
+                            <constraint firstItem="Cnt-Vw-Main" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Cnt-X-Cst"/>
+                            <constraint firstItem="Cnt-Vw-Main" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Cnt-Y-Cst"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppIcon" width="1024" height="1024"/>
+    </resources>
+</document> 

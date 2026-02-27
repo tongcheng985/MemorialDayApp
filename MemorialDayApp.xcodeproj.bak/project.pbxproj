@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A46DDC5D2E23EA1E00ADBF27 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46DDC392E23E25F00ADBF27 /* WidgetKit.framework */; };
+		A46DDC5E2E23EA1E00ADBF27 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46DDC3B2E23E26000ADBF27 /* SwiftUI.framework */; };
+		A46DDC6D2E23EA2000ADBF27 /* MemorialDayWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A46DDC5C2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFCDE9002B9E1D3A00AB2C3D /* MemorialDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE8FF2B9E1D3A00AB2C3D /* MemorialDayApp.swift */; };
+		BFCDE9022B9E1D3A00AB2C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9012B9E1D3A00AB2C3D /* ContentView.swift */; };
+		BFCDE9042B9E1D3B00AB2C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDE9032B9E1D3B00AB2C3D /* Assets.xcassets */; };
+		BFCDE9072B9E1D3B00AB2C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDE9062B9E1D3B00AB2C3D /* Preview Assets.xcassets */; };
+		BFCDE90E2B9E1D8600AB2C3D /* MemorialDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE90D2B9E1D8600AB2C3D /* MemorialDay.swift */; };
+		BFCDE9102B9E1D9500AB2C3D /* MemorialDayStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE90F2B9E1D9500AB2C3D /* MemorialDayStore.swift */; };
+		BFCDE9122B9E1DAA00AB2C3D /* AddMemorialDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9112B9E1DAA00AB2C3D /* AddMemorialDayView.swift */; };
+		BFCDE9142B9E1DBB00AB2C3D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9132B9E1DBB00AB2C3D /* DetailView.swift */; };
+		BFCDE9162B9E1DCD00AB2C3D /* EditMemorialDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9152B9E1DCD00AB2C3D /* EditMemorialDayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A46DDC6B2E23EA2000ADBF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDE8F42B9E1D3A00AB2C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46DDC5B2E23EA1E00ADBF27;
+			remoteInfo = MemorialDayWidgetExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A46DDC4E2E23E26200ADBF27 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A46DDC6D2E23EA2000ADBF27 /* MemorialDayWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A46DDC392E23E25F00ADBF27 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A46DDC3B2E23E26000ADBF27 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A46DDC5C2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MemorialDayWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDE8FC2B9E1D3A00AB2C3D /* MemorialDayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorialDayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDE8FF2B9E1D3A00AB2C3D /* MemorialDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialDayApp.swift; sourceTree = "<group>"; };
+		BFCDE9012B9E1D3A00AB2C3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFCDE9032B9E1D3B00AB2C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCDE9062B9E1D3B00AB2C3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFCDE90D2B9E1D8600AB2C3D /* MemorialDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialDay.swift; sourceTree = "<group>"; };
+		BFCDE90F2B9E1D9500AB2C3D /* MemorialDayStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialDayStore.swift; sourceTree = "<group>"; };
+		BFCDE9112B9E1DAA00AB2C3D /* AddMemorialDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemorialDayView.swift; sourceTree = "<group>"; };
+		BFCDE9132B9E1DBB00AB2C3D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BFCDE9152B9E1DCD00AB2C3D /* EditMemorialDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemorialDayView.swift; sourceTree = "<group>"; };
+		BFCDE9172A1B2E3C00AB2C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A46DDC6E2E23EA2000ADBF27 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A46DDC5B2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A46DDC5F2E23EA1E00ADBF27 /* MemorialDayWidgetExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A46DDC6E2E23EA2000ADBF27 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = MemorialDayWidgetExtension; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A46DDC592E23EA1E00ADBF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46DDC5E2E23EA1E00ADBF27 /* SwiftUI.framework in Frameworks */,
+				A46DDC5D2E23EA1E00ADBF27 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDE8F92B9E1D3A00AB2C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A46DDC382E23E25F00ADBF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A46DDC392E23E25F00ADBF27 /* WidgetKit.framework */,
+				A46DDC3B2E23E26000ADBF27 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCDE8F32B9E1D3A00AB2C3D = {
+			isa = PBXGroup;
+			children = (
+				BFCDE8FE2B9E1D3A00AB2C3D /* MemorialDayApp */,
+				A46DDC5F2E23EA1E00ADBF27 /* MemorialDayWidgetExtension */,
+				A46DDC382E23E25F00ADBF27 /* Frameworks */,
+				BFCDE8FD2B9E1D3A00AB2C3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCDE8FD2B9E1D3A00AB2C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDE8FC2B9E1D3A00AB2C3D /* MemorialDayApp.app */,
+				A46DDC5C2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCDE8FE2B9E1D3A00AB2C3D /* MemorialDayApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDE9172A1B2E3C00AB2C3D /* Info.plist */,
+				BFCDE8FF2B9E1D3A00AB2C3D /* MemorialDayApp.swift */,
+				BFCDE9012B9E1D3A00AB2C3D /* ContentView.swift */,
+				BFCDE90D2B9E1D8600AB2C3D /* MemorialDay.swift */,
+				BFCDE90F2B9E1D9500AB2C3D /* MemorialDayStore.swift */,
+				BFCDE9112B9E1DAA00AB2C3D /* AddMemorialDayView.swift */,
+				BFCDE9132B9E1DBB00AB2C3D /* DetailView.swift */,
+				BFCDE9152B9E1DCD00AB2C3D /* EditMemorialDayView.swift */,
+				BFCDE9032B9E1D3B00AB2C3D /* Assets.xcassets */,
+				BFCDE9052B9E1D3B00AB2C3D /* Preview Content */,
+			);
+			path = MemorialDayApp;
+			sourceTree = "<group>";
+		};
+		BFCDE9052B9E1D3B00AB2C3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDE9062B9E1D3B00AB2C3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A46DDC5B2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46DDC6F2E23EA2000ADBF27 /* Build configuration list for PBXNativeTarget "MemorialDayWidgetExtensionExtension" */;
+			buildPhases = (
+				A46DDC582E23EA1E00ADBF27 /* Sources */,
+				A46DDC592E23EA1E00ADBF27 /* Frameworks */,
+				A46DDC5A2E23EA1E00ADBF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A46DDC5F2E23EA1E00ADBF27 /* MemorialDayWidgetExtension */,
+			);
+			name = MemorialDayWidgetExtensionExtension;
+			packageProductDependencies = (
+			);
+			productName = MemorialDayWidgetExtensionExtension;
+			productReference = A46DDC5C2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BFCDE8FB2B9E1D3A00AB2C3D /* MemorialDayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDE90A2B9E1D3B00AB2C3D /* Build configuration list for PBXNativeTarget "MemorialDayApp" */;
+			buildPhases = (
+				BFCDE8F82B9E1D3A00AB2C3D /* Sources */,
+				BFCDE8F92B9E1D3A00AB2C3D /* Frameworks */,
+				BFCDE8FA2B9E1D3A00AB2C3D /* Resources */,
+				A46DDC4E2E23E26200ADBF27 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46DDC6C2E23EA2000ADBF27 /* PBXTargetDependency */,
+			);
+			name = MemorialDayApp;
+			productName = MemorialDayApp;
+			productReference = BFCDE8FC2B9E1D3A00AB2C3D /* MemorialDayApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCDE8F42B9E1D3A00AB2C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A46DDC5B2E23EA1E00ADBF27 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					BFCDE8FB2B9E1D3A00AB2C3D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BFCDE8F72B9E1D3A00AB2C3D /* Build configuration list for PBXProject "MemorialDayApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCDE8F32B9E1D3A00AB2C3D;
+			productRefGroup = BFCDE8FD2B9E1D3A00AB2C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCDE8FB2B9E1D3A00AB2C3D /* MemorialDayApp */,
+				A46DDC5B2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A46DDC5A2E23EA1E00ADBF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDE8FA2B9E1D3A00AB2C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDE9072B9E1D3B00AB2C3D /* Preview Assets.xcassets in Resources */,
+				BFCDE9042B9E1D3B00AB2C3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A46DDC582E23EA1E00ADBF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDE8F82B9E1D3A00AB2C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDE9022B9E1D3A00AB2C3D /* ContentView.swift in Sources */,
+				BFCDE90E2B9E1D8600AB2C3D /* MemorialDay.swift in Sources */,
+				BFCDE9162B9E1DCD00AB2C3D /* EditMemorialDayView.swift in Sources */,
+				BFCDE9122B9E1DAA00AB2C3D /* AddMemorialDayView.swift in Sources */,
+				BFCDE9102B9E1D9500AB2C3D /* MemorialDayStore.swift in Sources */,
+				BFCDE9142B9E1DBB00AB2C3D /* DetailView.swift in Sources */,
+				BFCDE9002B9E1D3A00AB2C3D /* MemorialDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A46DDC6C2E23EA2000ADBF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A46DDC5B2E23EA1E00ADBF27 /* MemorialDayWidgetExtensionExtension */;
+			targetProxy = A46DDC6B2E23EA2000ADBF27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A46DDC702E23EA2000ADBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VP2GFF5X4S;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialDayWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MemorialDayWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MemorialDayApp.MemorialDayWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A46DDC712E23EA2000ADBF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VP2GFF5X4S;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialDayWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MemorialDayWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MemorialDayApp.MemorialDayWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFCDE9082B9E1D3B00AB2C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCDE9092B9E1D3B00AB2C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCDE90B2B9E1D3B00AB2C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemorialDayApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VP2GFF5X4S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialDayApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "纪念日";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要麦克风权限来进行语音识别";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "需要语音识别权限来记录纪念日信息";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MemorialDayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCDE90C2B9E1D3B00AB2C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemorialDayApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VP2GFF5X4S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialDayApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "纪念日";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要麦克风权限来进行语音识别";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "需要语音识别权限来记录纪念日信息";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MemorialDayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A46DDC6F2E23EA2000ADBF27 /* Build configuration list for PBXNativeTarget "MemorialDayWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46DDC702E23EA2000ADBF27 /* Debug */,
+				A46DDC712E23EA2000ADBF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDE8F72B9E1D3A00AB2C3D /* Build configuration list for PBXProject "MemorialDayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDE9082B9E1D3B00AB2C3D /* Debug */,
+				BFCDE9092B9E1D3B00AB2C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDE90A2B9E1D3B00AB2C3D /* Build configuration list for PBXNativeTarget "MemorialDayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDE90B2B9E1D3B00AB2C3D /* Debug */,
+				BFCDE90C2B9E1D3B00AB2C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCDE8F42B9E1D3A00AB2C3D /* Project object */;
+}

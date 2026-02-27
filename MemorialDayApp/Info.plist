@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchScreenBackground</string>
+	</dict>
+	<!-- 已移除自定义URL Scheme、App Group 和 User Activities -->
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeAdd</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>快速添加新的纪念日</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>添加纪念日</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.memorialday.add</string>
+		</dict>
+	</array>
+	<!-- UIScene Configuration for iOS 13+ -->
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	
+	<!-- 应用基本信息 -->
+	<key>CFBundleName</key>
+	<string>纪念日倒计时</string>
+	<key>CFBundleDisplayName</key>
+	<string>纪念日倒计时</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.memorialday.countdown</string>
+	
+	<!-- 本地化设置 - 默认中文 -->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh-Hans</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>zh-Hans</string>
+		<string>en</string>
+	</array>
+	
+	<!-- 通知权限描述 -->
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>纪念日倒计时需要通知权限来在重要纪念日前一天提醒您，帮助您不错过任何重要的日子。您可以随时在设置中关闭此功能。</string>
+	
+	<!-- 支持的设备方向 -->
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	
+	<!-- 应用类别 -->
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	
+	<!-- 版权信息 -->
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2024 纪念日倒计时. All rights reserved.</string>
+	
+	<!-- 最低iOS版本 -->
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	
+	<!-- 加密合规 -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046673602E765ABB004147E6 /* MemorialDayApp Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 046673402E765AB9004147E6 /* MemorialDayApp Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		046673872E765B8B004147E6 /* PhoneConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046673862E765B8B004147E6 /* PhoneConnectivityManager.swift */; };
+		046673892E765BD2004147E6 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046673882E765BD2004147E6 /* WatchConnectivity.framework */; };
+		0466738B2E765BF4004147E6 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0466738A2E765BF4004147E6 /* WatchConnectivity.framework */; };
+		046673922E765C20004147E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046673932E765C20004147E6 /* Assets.xcassets */; };
+		BFCDE9002B9E1D3A00AB2C3D /* MemorialDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE8FF2B9E1D3A00AB2C3D /* MemorialDayApp.swift */; };
+		BFCDE9022B9E1D3A00AB2C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9012B9E1D3A00AB2C3D /* ContentView.swift */; };
+		BFCDE9042B9E1D3B00AB2C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDE9032B9E1D3B00AB2C3D /* Assets.xcassets */; };
+		BFCDE9072B9E1D3B00AB2C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDE9062B9E1D3B00AB2C3D /* Preview Assets.xcassets */; };
+		BFCDE90E2B9E1D8600AB2C3D /* MemorialDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE90D2B9E1D8600AB2C3D /* MemorialDay.swift */; };
+		BFCDE9102B9E1D9500AB2C3D /* MemorialDayStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE90F2B9E1D9500AB2C3D /* MemorialDayStore.swift */; };
+		BFCDE9122B9E1DAA00AB2C3D /* AddMemorialDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9112B9E1DAA00AB2C3D /* AddMemorialDayView.swift */; };
+		BFCDE9142B9E1DBB00AB2C3D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9132B9E1DBB00AB2C3D /* DetailView.swift */; };
+		BFCDE9162B9E1DCD00AB2C3D /* EditMemorialDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9152B9E1DCD00AB2C3D /* EditMemorialDayView.swift */; };
+		BFCDE9182B9E1DE000AB2C3D /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE9172B9E1DE000AB2C3D /* HapticManager.swift */; };
+		BFCDE9202B9E1E2000AB2C3D /* GaokaoYearSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDE91F2B9E1E2000AB2C3D /* GaokaoYearSettingView.swift */; };
+		BFD0E0022E40000000112233 /* MemorialDayFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0012E40000000112233 /* MemorialDayFormView.swift */; };
+		BFD0E0032E40000000112234 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0022E40000000112234 /* Category.swift */; };
+		BFD0E0042E40000000112235 /* CategoryManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0032E40000000112235 /* CategoryManagementView.swift */; };
+		BFD0E0052E40000000112236 /* CategoryFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0042E40000000112236 /* CategoryFilterView.swift */; };
+		BFD0E0062E40000000112237 /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0052E40000000112237 /* CategorySelectionView.swift */; };
+		BFD0E0072E40000000112238 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0062E40000000112238 /* LanguageSelectionView.swift */; };
+		BFD0E0082E40000000112239 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0072E40000000112239 /* PrimaryButtonStyle.swift */; };
+		BFD0E0092E40000000112240 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0082E40000000112240 /* NotificationManager.swift */; };
+		BFD0E0112E40000000112241 /* ContentViewSupportViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0102E40000000112241 /* ContentViewSupportViews.swift */; };
+		BFD0E0132E40000000112242 /* SwipeBackGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0122E40000000112242 /* SwipeBackGesture.swift */; };
+		BFD0E0152E40000000112243 /* ContentViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0142E40000000112243 /* ContentViewComponents.swift */; };
+		BFD0E0172E40000000112244 /* MemorialDayStore+Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0162E40000000112244 /* MemorialDayStore+Sorting.swift */; };
+		BFD0E0192E40000000112245 /* MemorialDayStore+Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0182E40000000112245 /* MemorialDayStore+Persistence.swift */; };
+		BFD0E0212E40000000112246 /* ContentViewAuxiliaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0E0202E40000000112246 /* ContentViewAuxiliaryViews.swift */; };
+		E901AB239A5148A58F93AC98 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE879AEC5AF4B09A47250C5 /* ColorTheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0466734D2E765ABB004147E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDE8F42B9E1D3A00AB2C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0466733F2E765AB9004147E6;
+			remoteInfo = "MemorialDayApp Watch App Watch App";
+		};
+		046673572E765ABB004147E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDE8F42B9E1D3A00AB2C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0466733F2E765AB9004147E6;
+			remoteInfo = "MemorialDayApp Watch App Watch App";
+		};
+		0466735E2E765ABB004147E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDE8F42B9E1D3A00AB2C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0466733F2E765AB9004147E6;
+			remoteInfo = "MemorialDayApp Watch App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		046673612E765ABB004147E6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				046673602E765ABB004147E6 /* MemorialDayApp Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		046673402E765AB9004147E6 /* MemorialDayApp Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemorialDayApp Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0466734C2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemorialDayApp Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046673562E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemorialDayApp Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046673862E765B8B004147E6 /* PhoneConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivityManager.swift; sourceTree = "<group>"; };
+		046673882E765BD2004147E6 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.5.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		0466738A2E765BF4004147E6 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		046673932E765C20004147E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "MemorialDayApp Watch App Watch App/Assets.xcassets"; sourceTree = "<group>"; };
+		7BE879AEC5AF4B09A47250C5 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		A46DDC3B2E23E26000ADBF27 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A4D0F65A2E25488F0019CB41 /* MemorialDayApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MemorialDayApp.entitlements; sourceTree = "<group>"; };
+		BFCDE8FC2B9E1D3A00AB2C3D /* MemorialDayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorialDayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDE8FF2B9E1D3A00AB2C3D /* MemorialDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialDayApp.swift; sourceTree = "<group>"; };
+		BFCDE9012B9E1D3A00AB2C3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFCDE9032B9E1D3B00AB2C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCDE9062B9E1D3B00AB2C3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFCDE90D2B9E1D8600AB2C3D /* MemorialDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialDay.swift; sourceTree = "<group>"; };
+		BFCDE90F2B9E1D9500AB2C3D /* MemorialDayStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialDayStore.swift; sourceTree = "<group>"; };
+		BFCDE9112B9E1DAA00AB2C3D /* AddMemorialDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemorialDayView.swift; sourceTree = "<group>"; };
+		BFCDE9132B9E1DBB00AB2C3D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BFCDE9152B9E1DCD00AB2C3D /* EditMemorialDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemorialDayView.swift; sourceTree = "<group>"; };
+		BFCDE9172B9E1DE000AB2C3D /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		BFCDE91F2B9E1E2000AB2C3D /* GaokaoYearSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaokaoYearSettingView.swift; sourceTree = "<group>"; };
+		BFCDE9232A1B2E3C00AB2C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD0E0012E40000000112233 /* MemorialDayFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialDayFormView.swift; sourceTree = "<group>"; };
+		BFD0E0022E40000000112234 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BFD0E0032E40000000112235 /* CategoryManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagementView.swift; sourceTree = "<group>"; };
+		BFD0E0042E40000000112236 /* CategoryFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilterView.swift; sourceTree = "<group>"; };
+		BFD0E0052E40000000112237 /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
+		BFD0E0062E40000000112238 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		BFD0E0072E40000000112239 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		BFD0E0082E40000000112240 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		BFD0E0102E40000000112241 /* ContentViewSupportViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewSupportViews.swift; sourceTree = "<group>"; };
+		BFD0E0122E40000000112242 /* SwipeBackGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeBackGesture.swift; sourceTree = "<group>"; };
+		BFD0E0142E40000000112243 /* ContentViewComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewComponents.swift; sourceTree = "<group>"; };
+		BFD0E0162E40000000112244 /* MemorialDayStore+Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemorialDayStore+Sorting.swift"; sourceTree = "<group>"; };
+		BFD0E0182E40000000112245 /* MemorialDayStore+Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemorialDayStore+Persistence.swift"; sourceTree = "<group>"; };
+		BFD0E0202E40000000112246 /* ContentViewAuxiliaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewAuxiliaryViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		046673832E765B67004147E6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				MemorialDayWatchApp.swift,
+				WatchConnectivityManager.swift,
+				WatchMemorialDay.swift,
+				WatchMemorialDayCard.swift,
+			);
+			target = 0466734B2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests */;
+		};
+		046673842E765B67004147E6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				MemorialDayWatchApp.swift,
+				WatchConnectivityManager.swift,
+				WatchMemorialDay.swift,
+				WatchMemorialDayCard.swift,
+			);
+			target = 046673552E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		046673412E765AB9004147E6 /* MemorialDayApp Watch App Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (046673832E765B67004147E6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 046673842E765B67004147E6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "MemorialDayApp Watch App Watch App"; sourceTree = "<group>"; };
+		0466734F2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "MemorialDayApp Watch App Watch AppTests"; sourceTree = "<group>"; };
+		046673592E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "MemorialDayApp Watch App Watch AppUITests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0466733D2E765AB9004147E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046673892E765BD2004147E6 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046673492E765ABB004147E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046673532E765ABB004147E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDE8F92B9E1D3A00AB2C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0466738B2E765BF4004147E6 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0412A7732E8C08A10033922C /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				046673932E765C20004147E6 /* Assets.xcassets */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		A46DDC382E23E25F00ADBF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046673882E765BD2004147E6 /* WatchConnectivity.framework */,
+				0466738A2E765BF4004147E6 /* WatchConnectivity.framework */,
+				A46DDC3B2E23E26000ADBF27 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCDE8F32B9E1D3A00AB2C3D = {
+			isa = PBXGroup;
+			children = (
+				BFCDE8FE2B9E1D3A00AB2C3D /* MemorialDayApp */,
+				046673412E765AB9004147E6 /* MemorialDayApp Watch App Watch App */,
+				0466734F2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests */,
+				046673592E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests */,
+				A46DDC382E23E25F00ADBF27 /* Frameworks */,
+				BFCDE8FD2B9E1D3A00AB2C3D /* Products */,
+				0412A7732E8C08A10033922C /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCDE8FD2B9E1D3A00AB2C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDE8FC2B9E1D3A00AB2C3D /* MemorialDayApp.app */,
+				046673402E765AB9004147E6 /* MemorialDayApp Watch App Watch App.app */,
+				0466734C2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests.xctest */,
+				046673562E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCDE8FE2B9E1D3A00AB2C3D /* MemorialDayApp */ = {
+			isa = PBXGroup;
+			children = (
+				046673862E765B8B004147E6 /* PhoneConnectivityManager.swift */,
+				A4D0F65A2E25488F0019CB41 /* MemorialDayApp.entitlements */,
+				BFCDE9232A1B2E3C00AB2C3D /* Info.plist */,
+				BFCDE8FF2B9E1D3A00AB2C3D /* MemorialDayApp.swift */,
+				7BE879AEC5AF4B09A47250C5 /* ColorTheme.swift */,
+				BFCDE9012B9E1D3A00AB2C3D /* ContentView.swift */,
+				BFCDE90D2B9E1D8600AB2C3D /* MemorialDay.swift */,
+				BFCDE90F2B9E1D9500AB2C3D /* MemorialDayStore.swift */,
+				BFCDE9112B9E1DAA00AB2C3D /* AddMemorialDayView.swift */,
+				BFCDE9132B9E1DBB00AB2C3D /* DetailView.swift */,
+				BFCDE9152B9E1DCD00AB2C3D /* EditMemorialDayView.swift */,
+				BFCDE9172B9E1DE000AB2C3D /* HapticManager.swift */,
+				BFCDE91F2B9E1E2000AB2C3D /* GaokaoYearSettingView.swift */,
+				BFD0E0012E40000000112233 /* MemorialDayFormView.swift */,
+				BFD0E0022E40000000112234 /* Category.swift */,
+				BFD0E0032E40000000112235 /* CategoryManagementView.swift */,
+				BFD0E0042E40000000112236 /* CategoryFilterView.swift */,
+				BFD0E0052E40000000112237 /* CategorySelectionView.swift */,
+				BFD0E0062E40000000112238 /* LanguageSelectionView.swift */,
+				BFD0E0072E40000000112239 /* PrimaryButtonStyle.swift */,
+				BFD0E0082E40000000112240 /* NotificationManager.swift */,
+				BFD0E0102E40000000112241 /* ContentViewSupportViews.swift */,
+				BFD0E0122E40000000112242 /* SwipeBackGesture.swift */,
+				BFD0E0142E40000000112243 /* ContentViewComponents.swift */,
+				BFD0E0162E40000000112244 /* MemorialDayStore+Sorting.swift */,
+				BFD0E0182E40000000112245 /* MemorialDayStore+Persistence.swift */,
+				BFD0E0202E40000000112246 /* ContentViewAuxiliaryViews.swift */,
+				BFCDE9032B9E1D3B00AB2C3D /* Assets.xcassets */,
+				BFCDE9052B9E1D3B00AB2C3D /* Preview Content */,
+			);
+			path = MemorialDayApp;
+			sourceTree = "<group>";
+		};
+		BFCDE9052B9E1D3B00AB2C3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDE9062B9E1D3B00AB2C3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0466733F2E765AB9004147E6 /* MemorialDayApp Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046673682E765ABB004147E6 /* Build configuration list for PBXNativeTarget "MemorialDayApp Watch App Watch App" */;
+			buildPhases = (
+				0466733C2E765AB9004147E6 /* Sources */,
+				0466733D2E765AB9004147E6 /* Frameworks */,
+				0466733E2E765AB9004147E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				046673412E765AB9004147E6 /* MemorialDayApp Watch App Watch App */,
+			);
+			name = "MemorialDayApp Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "MemorialDayApp Watch App Watch App";
+			productReference = 046673402E765AB9004147E6 /* MemorialDayApp Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0466734B2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046673692E765ABB004147E6 /* Build configuration list for PBXNativeTarget "MemorialDayApp Watch App Watch AppTests" */;
+			buildPhases = (
+				046673482E765ABB004147E6 /* Sources */,
+				046673492E765ABB004147E6 /* Frameworks */,
+				0466734A2E765ABB004147E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0466734E2E765ABB004147E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0466734F2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests */,
+			);
+			name = "MemorialDayApp Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "MemorialDayApp Watch App Watch AppTests";
+			productReference = 0466734C2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046673552E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0466736A2E765ABB004147E6 /* Build configuration list for PBXNativeTarget "MemorialDayApp Watch App Watch AppUITests" */;
+			buildPhases = (
+				046673522E765ABB004147E6 /* Sources */,
+				046673532E765ABB004147E6 /* Frameworks */,
+				046673542E765ABB004147E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046673582E765ABB004147E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				046673592E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests */,
+			);
+			name = "MemorialDayApp Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "MemorialDayApp Watch App Watch AppUITests";
+			productReference = 046673562E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BFCDE8FB2B9E1D3A00AB2C3D /* MemorialDayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDE90A2B9E1D3B00AB2C3D /* Build configuration list for PBXNativeTarget "MemorialDayApp" */;
+			buildPhases = (
+				BFCDE8F82B9E1D3A00AB2C3D /* Sources */,
+				BFCDE8F92B9E1D3A00AB2C3D /* Frameworks */,
+				BFCDE8FA2B9E1D3A00AB2C3D /* Resources */,
+				046673612E765ABB004147E6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0466735F2E765ABB004147E6 /* PBXTargetDependency */,
+			);
+			name = MemorialDayApp;
+			productName = MemorialDayApp;
+			productReference = BFCDE8FC2B9E1D3A00AB2C3D /* MemorialDayApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCDE8F42B9E1D3A00AB2C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0466733F2E765AB9004147E6 = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					0466734B2E765ABB004147E6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0466733F2E765AB9004147E6;
+					};
+					046673552E765ABB004147E6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0466733F2E765AB9004147E6;
+					};
+					BFCDE8FB2B9E1D3A00AB2C3D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BFCDE8F72B9E1D3A00AB2C3D /* Build configuration list for PBXProject "MemorialDayApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = BFCDE8F32B9E1D3A00AB2C3D;
+			productRefGroup = BFCDE8FD2B9E1D3A00AB2C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCDE8FB2B9E1D3A00AB2C3D /* MemorialDayApp */,
+				0466733F2E765AB9004147E6 /* MemorialDayApp Watch App Watch App */,
+				0466734B2E765ABB004147E6 /* MemorialDayApp Watch App Watch AppTests */,
+				046673552E765ABB004147E6 /* MemorialDayApp Watch App Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0466733E2E765AB9004147E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046673922E765C20004147E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0466734A2E765ABB004147E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046673542E765ABB004147E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDE8FA2B9E1D3A00AB2C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDE9072B9E1D3B00AB2C3D /* Preview Assets.xcassets in Resources */,
+				BFCDE9042B9E1D3B00AB2C3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0466733C2E765AB9004147E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046673482E765ABB004147E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046673522E765ABB004147E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDE8F82B9E1D3A00AB2C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDE9022B9E1D3A00AB2C3D /* ContentView.swift in Sources */,
+				BFCDE90E2B9E1D8600AB2C3D /* MemorialDay.swift in Sources */,
+				BFCDE9162B9E1DCD00AB2C3D /* EditMemorialDayView.swift in Sources */,
+				BFCDE9122B9E1DAA00AB2C3D /* AddMemorialDayView.swift in Sources */,
+				BFCDE9102B9E1D9500AB2C3D /* MemorialDayStore.swift in Sources */,
+				BFCDE9142B9E1DBB00AB2C3D /* DetailView.swift in Sources */,
+				BFCDE9002B9E1D3A00AB2C3D /* MemorialDayApp.swift in Sources */,
+				BFCDE9182B9E1DE000AB2C3D /* HapticManager.swift in Sources */,
+				BFCDE9202B9E1E2000AB2C3D /* GaokaoYearSettingView.swift in Sources */,
+				BFD0E0022E40000000112233 /* MemorialDayFormView.swift in Sources */,
+				BFD0E0032E40000000112234 /* Category.swift in Sources */,
+				BFD0E0042E40000000112235 /* CategoryManagementView.swift in Sources */,
+				BFD0E0052E40000000112236 /* CategoryFilterView.swift in Sources */,
+				BFD0E0062E40000000112237 /* CategorySelectionView.swift in Sources */,
+				BFD0E0072E40000000112238 /* LanguageSelectionView.swift in Sources */,
+				046673872E765B8B004147E6 /* PhoneConnectivityManager.swift in Sources */,
+				BFD0E0082E40000000112239 /* PrimaryButtonStyle.swift in Sources */,
+				BFD0E0092E40000000112240 /* NotificationManager.swift in Sources */,
+				BFD0E0112E40000000112241 /* ContentViewSupportViews.swift in Sources */,
+				BFD0E0132E40000000112242 /* SwipeBackGesture.swift in Sources */,
+				BFD0E0152E40000000112243 /* ContentViewComponents.swift in Sources */,
+				BFD0E0172E40000000112244 /* MemorialDayStore+Sorting.swift in Sources */,
+				BFD0E0192E40000000112245 /* MemorialDayStore+Persistence.swift in Sources */,
+				BFD0E0212E40000000112246 /* ContentViewAuxiliaryViews.swift in Sources */,
+				E901AB239A5148A58F93AC98 /* ColorTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0466734E2E765ABB004147E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0466733F2E765AB9004147E6 /* MemorialDayApp Watch App Watch App */;
+			targetProxy = 0466734D2E765ABB004147E6 /* PBXContainerItemProxy */;
+		};
+		046673582E765ABB004147E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0466733F2E765AB9004147E6 /* MemorialDayApp Watch App Watch App */;
+			targetProxy = 046673572E765ABB004147E6 /* PBXContainerItemProxy */;
+		};
+		0466735F2E765ABB004147E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0466733F2E765AB9004147E6 /* MemorialDayApp Watch App Watch App */;
+			targetProxy = 0466735E2E765ABB004147E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		046673622E765ABB004147E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = "zh-Hans";
+				INFOPLIST_KEY_CFBundleDisplayName = "纪念日";
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tongcheng.anniversaryapp;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongcheng.anniversaryapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MemorialDayApp Watch App Watch App/MemorialDayApp Watch App Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		046673632E765ABB004147E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = "zh-Hans";
+				INFOPLIST_KEY_CFBundleDisplayName = "纪念日";
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tongcheng.anniversaryapp;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongcheng.anniversaryapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MemorialDayApp Watch App Watch App/MemorialDayApp Watch App Watch App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+		046673642E765ABB004147E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memorialday.MemorialDayApp-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemorialDayApp Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MemorialDayApp Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		046673652E765ABB004147E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memorialday.MemorialDayApp-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemorialDayApp Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MemorialDayApp Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		046673662E765ABB004147E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memorialday.MemorialDayApp-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MemorialDayApp Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		046673672E765ABB004147E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memorialday.MemorialDayApp-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MemorialDayApp Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		BFCDE9082B9E1D3B00AB2C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCDE9092B9E1D3B00AB2C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCDE90B2B9E1D3B00AB2C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MemorialDayApp/MemorialDayApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemorialDayApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialDayApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "纪念日";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.20;
+				OTHER_LDFLAGS = "-ld_classic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongcheng.anniversaryapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFCDE90C2B9E1D3B00AB2C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MemorialDayApp/MemorialDayApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemorialDayApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y58F4BW8PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialDayApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "纪念日";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.20;
+				OTHER_LDFLAGS = "-ld_classic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongcheng.anniversaryapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046673682E765ABB004147E6 /* Build configuration list for PBXNativeTarget "MemorialDayApp Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046673622E765ABB004147E6 /* Debug */,
+				046673632E765ABB004147E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046673692E765ABB004147E6 /* Build configuration list for PBXNativeTarget "MemorialDayApp Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046673642E765ABB004147E6 /* Debug */,
+				046673652E765ABB004147E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0466736A2E765ABB004147E6 /* Build configuration list for PBXNativeTarget "MemorialDayApp Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046673662E765ABB004147E6 /* Debug */,
+				046673672E765ABB004147E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDE8F72B9E1D3A00AB2C3D /* Build configuration list for PBXProject "MemorialDayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDE9082B9E1D3B00AB2C3D /* Debug */,
+				BFCDE9092B9E1D3B00AB2C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDE90A2B9E1D3B00AB2C3D /* Build configuration list for PBXNativeTarget "MemorialDayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDE90B2B9E1D3B00AB2C3D /* Debug */,
+				BFCDE90C2B9E1D3B00AB2C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCDE8F42B9E1D3A00AB2C3D /* Project object */;
+}
